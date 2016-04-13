@@ -13,4 +13,4 @@ if ( answer1.toUpperCase() === 'MAGIC' ) {
 console.log("correct:" + correct);
 
 // output results
-document.write("<p>hello world</p>");
+document.write("<p>" + answer1 + "</p>");
