@@ -47,5 +47,9 @@ document.write("<p>You got 2 questions correct! Time to watch some Gilmore Girls
 }
 
 if ( correct === '1' ) {
-document.write("<p>You got 1 question correct! Have you even watched Gilmore Girls??</p>");
+document.write("<p>You got 1 question correct! Time to watch some Gilmore Girls and brush up on your knowledge!?</p>");
+}
+
+if ( correct === '0' ) {
+document.write("<p>Sorry you didn't get any questions right. Have you even watched Gilmore Girls??</p>");
 }
