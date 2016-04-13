@@ -10,5 +10,7 @@ if ( answer1.toUpperCase() === 'MAGIC' ) {
  correct += 1;
 }
 
+console.log("correct" + correct);
+
 // output results
 document.write("<p>write something to page...</p>");
