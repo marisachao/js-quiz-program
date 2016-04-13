@@ -30,4 +30,18 @@ if ( answer5.toUpperCase() === 'DEAN' ) {
 //console.log("correct:" + correct);
 
 // output results
-document.write("<p> You got: " + correct + " points</p>");
+if ( correct === '5' ) {
+document.write("<p>Congratulations, you got all 5 questions correct! Gold medal!!</p>");
+
+if ( correct === '4' ) {
+document.write("<p>Congratulations, you got 4 questions correct! Silver medal!!</p>");
+
+if ( correct === '5' ) {
+document.write("<p>Congratulations, you got 3 questions correct! Bronze medal!!</p>");
+
+if ( correct === '5' ) {
+document.write("<p>You got 2 questions correct! Time to watch some Gilmore Girls and brush up on your knowledge!</p>");
+
+if ( correct === '5' ) {
+document.write("<p>You got 1 question correct! Have you even watched Gilmore Girls??</p>");
+
