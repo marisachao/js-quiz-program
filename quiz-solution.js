@@ -11,6 +11,7 @@ function question(questionText, realAnswer) {
 }
 
 question("asking some question", "TEST");
+question{"another question here", "ANSWER");
 
 //var answer1 = prompt("Name a programming language that's also a gem");
 //if ( answer1.toUpperCase() === 'RUBY' ) {
