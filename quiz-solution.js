@@ -10,7 +10,7 @@ function question(questionText, realAnswer) {
  }
 }
 
-question();
+question("asking some question", "TEST");
 
 //var answer1 = prompt("Name a programming language that's also a gem");
 //if ( answer1.toUpperCase() === 'RUBY' ) {
